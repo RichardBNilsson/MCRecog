@@ -34,90 +34,105 @@ def get_response(response):
     print(response)
 
     ret = []
+    if "clay" in response:
+        ret.append("Explode and die")
+    if "dirt" in response:
+        ret.append("Explode and die")
+    if "grass" in response:
+        ret.append("Explode and die")
+    if "gravel" in response:
+        ret.append("Explode and die")
+    if "sand" in response:
+        ret.append("Explode and die")
+    if "soul" in response:
+        ret.append("Explode and die")
+    if "andesite" in response:
+        ret.append("Explode and die")
+    if "basalt" in response:
+        ret.append("Explode and die")
+    if "bedrock" in response:
+        ret.append("Explode and die")
+    if "blackstone" in response:
+        ret.append("Explode and die")
+    if "calcite" in response:
+        ret.append("Explode and die")
+    if "deepslate" in response:
+        ret.append("Explode and die")
+    if "diorite" in response:
+        ret.append("Explode and die")
+    if "dripstone" in response:
+        ret.append("Explode and die")
+    if "end" in response:
+        ret.append("Explode and die")
+    if "glowstone" in response:
+        ret.append("Explode and die")
+    if "granite" in response:
+        ret.append("Explode and die")
+    if "magma" in response:
+        ret.append("Explode and die")
+    if "netherrack" in response:
+        ret.append("Explode and die")
+    if "obsidian" in response:
+        ret.append("Explode and die")
+    if "sandstone" in response:
+        ret.append("Explode and die")
+    if "stone" in response:
+        ret.append("Explode and die")
+    if "terracotta" in response:
+        ret.append("Explode and die")
+    if "tuff" in response:
+        ret.append("Explode and die")
+    if "amethyst" in response:
+        ret.append("Explode and die")
+    if "ancient debris" in response:
+        ret.append("Explode and die")
+    if "budding amethyst" in response:
+        ret.append("Explode and die")
+    if "coal" in response:
+        ret.append("Explode and die")
+    if "copper" in response:
+        ret.append("Explode and die")
+    if "diamond" in response:
+        ret.append("Explode and die")
+    if "gold" in response:
+        ret.append("Explode and die")
+    if "emerald" in response:
+        ret.append("Explode and die")
+    if "gilded" in response:
+        ret.append("Explode and die")
+    if "gold" in response:
+        ret.append("Explode and die")
+    if "iron" in response:
+        ret.append("Explode and die")
+    if "lapis lazuli" in response:
+        ret.append("Explode and die")
+    if "nether quartz" in response:
+        ret.append("Explode and die")
+    if "redstone" in response:
+        ret.append("Explode and die")
+    if "ice" in response:
+        ret.append("Explode and die")
+    if "lava" in response:
+        ret.append("Explode and die")
+    if "snow" in response:
+        ret.append("Explode and die")
+    if "water" in response:
+        ret.append("Explode and die")
     if "crow" in response:
         ret.append("Explode and die")
-    if "noshot" in response:
-        ret.append("Lose 10 arrows")
-    if "bear" in response:
-        ret.append("Spawn 7 hostile polar bears")
-    if "axolotl" in response:
-        ret.append("Axolotl time")
-    if "rot" in response:
-        ret.append("Spawn 10 zombies")
-    if "bone" in response:
-        ret.append("Spawn 10 skeletons")
-    if "pig" in response:
-        ret.append("Lose all hunger")
-    if "sub" in response:
-        ret.append("Lose something random")
-    if "creep" in response:
-        ret.append("Spawn 7 creepers")
-    if "rod" in response:
-        ret.append("Spawn 7 blazes")
-    if "end" in response:
-        ret.append("Spawn 10 angry endermen")
-    if "nether" in response:
-        ret.append("Spawn 7 wither skeletons")
-    if "cave" in response:
-        ret.append("Mining fatigue")
-    if 'follow' in response:
-        ret.append("Big hole")
-    if 'day' in response:
-        ret.append("Set time to night")
-    if 'bed' in response:
-        ret.append("Spawn 7 phantoms")
-    if 'boat' in response:
-        ret.append("Fill inventory with boats")
-    if 'dragon' in response:
-        ret.append("Play dragon noise, spawn 10 endermite")
-    if 'twitch' in response:
-        ret.append("Spawn supercharged creeper")
-    if 'coal' in response:
-        ret.append("Set on fire")
-    if 'iron' in response:
-        ret.append("Spawn aggro iron golem")
-    if 'gold' in response:
-        ret.append("Spawn pigmen")
-    if 'diamond' in response:
-        ret.append("Set to half a heart")
-    if 'mod' in response:
-        ret.append("Shuffle inventory")
-    if 'port' in response:
-        ret.append("Teleport randomly")
-    if 'water' in response:
-        ret.append("In water")
-    if 'block' in response:
-        ret.append("Spawn killer rabbits")
-    if 'high' in response:
-        ret.append("Launched in the air")
-    if 'craft' in response:
-        ret.append("Surround in obsidian")
-    if 'village' in response:
-        ret.append("Spawn witches")
-    if 'mine' in response:
-        ret.append("Give something useless")
-    if 'gam' in response:
-        ret.append("Random explosion")
-    if 'light' in response:
-        ret.append("Lightning")
-    if 'ink' in response:
-        ret.append("Ink Splat")
-    if 'bud' in response:
-        ret.append("Knockback")
-    if 'yike' in response:
-        ret.append("Lava source block")
-    if 'poggers' in response:
-        ret.append("Heal 1 heart")
-    if 'blessmepapi' in response:
-        ret.append("No effects for 20 seconds")
-    if 'dream' in response:
-        ret.append("Instant death")
-    if 'thing' in response:
-        ret.append("Give iron nugget")
-    if 'godlike' in response:
-        ret.append("Strength effect")
-    if 'troll' in response:
-        ret.append("Drop inventory")
+    if "wood" in response:
+        ret.append("Explode and die")
+    if "logs" in response:
+        ret.append("Explode and die")
+    if "chest" in response:
+        ret.append("Explode and die")
+    if "crafting table" in response:
+        ret.append("Explode and die")
+    if "furnace" in response:
+        ret.append("Explode and die")
+    if "ladder" in response:
+        ret.append("Explode and die")
+    
 
     print(response, ret)
 
